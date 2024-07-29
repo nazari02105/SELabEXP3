@@ -202,10 +202,22 @@ duplicate code
 کاورج با تست های اولیه به این صورت است:
 ![image](https://github.com/user-attachments/assets/1c75a8aa-91c5-4958-a6ad-94b63ce2b114)
 
+این تست ها را برای تابع LendBook در Library اضافه میکنیم:
+![image](https://github.com/user-attachments/assets/2b5692ec-32a5-4c46-ba69-508a52d9459f)
+
+و نتیجه آن ها موفقیت آمیز است و پاس می شوند، همچنین درصد کاورج کلاس Library نیز بالا رفته:
+![image](https://github.com/user-attachments/assets/83e7f92b-4b3a-4135-9044-f31b383597f4)
 
 
+![image](https://github.com/user-attachments/assets/0da59322-94a8-4b1a-a2f5-6cf2f639d933)
+
+حال تعدادی تست دیگر نیز اضافه میکنیم و نتیجه نهایی را قرار می‌دهیم:
+
+![image](https://github.com/user-attachments/assets/d52dfc92-a6c3-46c8-8963-145791599853)
+
+می‌بینیم که تست ها پاس شده اند و کاورج نهایی نیز به طرز چشمگیری افزایش داشته:
+![image](https://github.com/user-attachments/assets/157b25fa-46a7-464b-b959-e2014b1f3d6e)
 
 
-
-
+و این بخش نیز به پایان رسید.
 
