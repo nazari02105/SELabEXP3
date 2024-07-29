@@ -173,3 +173,23 @@ duplicate code
 نتیجه به شکل زیر می‌باشد می‌بینیم که در کنار هر فایل در سمت چپ درصد کاورج متد ها، کلاس ها و خط ها آمده است.
 ![image](https://github.com/user-attachments/assets/19efe06f-2367-4cbd-89ea-c623b9186898)
 
+حال به طور خاص برای یکی از متد های تست، چک پوینت می‌گذاریم تا روند debug و تست آن را مشاهده کنیم.
+![image](https://github.com/user-attachments/assets/8bf3933c-0b89-495d-b4a8-bb08b93daba3)
+
+مواردی که این کلاس تست کرده است را می‌بینیم:
+![image](https://github.com/user-attachments/assets/a4234217-0e96-4d09-bf66-8e94e1aed237)
+
+حال Generate Coverage Report را میزنیم که یک فایل html به ما خروجی میدهد:
+![image](https://github.com/user-attachments/assets/5c56209a-82fd-47ac-947c-69e10bd4c00f)
+که این فایل html مذکور می‌باشد:
+![image](https://github.com/user-attachments/assets/bf82f1ff-244b-4694-a878-0dba32b5747d)
+
+اینجا می‌بینیم که با کلیک بر روی لینک هر یک از فایل های گزارش، خطوط کاور شده سبز رنگ هستند و خطوط کاور نشده قرمز رنگ هستند:
+![image](https://github.com/user-attachments/assets/2a4b8fc6-4388-4491-87ae-6350ec1555e1)
+
+که اینجا بررسی پروژه json-simple به پایان می‌رسد.
+
+حال به بررسی 
+
+
+
