@@ -189,7 +189,23 @@ duplicate code
 
 که اینجا بررسی پروژه json-simple به پایان می‌رسد.
 
-حال به بررسی 
+حال به بررسی پروژه Library می‌پردازیم به همین شکل:
+ابتدا پروژه را با Intellij باز می‌کنیم:
+![image](https://github.com/user-attachments/assets/17b941b3-2d3e-48d1-992e-3e3515967362)
+حال هر کدام از فایل های تست را Run test with coverage می‌گیریم، نتایج را در زیر مشاهده می‌کنید:
+![image](https://github.com/user-attachments/assets/22460a20-a975-4c7b-9055-ca797457c81b)
+
+![image](https://github.com/user-attachments/assets/4819ec94-2eea-49e6-bbcc-31636212f357)
+
+و به همان ترتیبی که در پروژه قبلی نیز دیدیم میتوانیم Generate coverage Report نیز انجام دهیم و خطوط کاور شده و کاور نشده را در قالب یک فایل html ببینیم.
+حال به این میپردازیم که چند تست به تست ها اضافه کنیم که کاورج تست ها بالا رود:
+کاورج با تست های اولیه به این صورت است:
+![image](https://github.com/user-attachments/assets/1c75a8aa-91c5-4958-a6ad-94b63ce2b114)
+
+
+
+
+
 
 
 
