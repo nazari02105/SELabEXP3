@@ -155,8 +155,69 @@ duplicate code
   <img src="./images/test6.png" />
 </p>
 
+ 
+
 <p align="center">
   <img src="./images/result8.png" />
 </p>
 
 و به این ترتیب این بخش از آزمایش کامل می‌شود.
+
+
+حال به این می‌پردازیم که از ابزار های تست برای بررسی دقیق کاورج استفاده کنیم. پروژه ی json-simple که به ما ارائه شده بود را با استفاده از ide intellij و  maven configuration آن را باز میکنیم:
+![image](https://github.com/user-attachments/assets/2da1dce0-5b7a-4db2-9b40-0192d2a64644)
+
+سپس فایل TestJson.java را باز میکنیم و Run test with coverage را اعمال می‌کنیم.
+![image](https://github.com/user-attachments/assets/16f05dd3-8d4d-49bc-9be4-004f32a52c9f)
+
+نتیجه به شکل زیر می‌باشد می‌بینیم که در کنار هر فایل در سمت چپ درصد کاورج متد ها، کلاس ها و خط ها آمده است.
+![image](https://github.com/user-attachments/assets/19efe06f-2367-4cbd-89ea-c623b9186898)
+
+حال به طور خاص برای یکی از متد های تست، چک پوینت می‌گذاریم تا روند debug و تست آن را مشاهده کنیم.
+![image](https://github.com/user-attachments/assets/8bf3933c-0b89-495d-b4a8-bb08b93daba3)
+
+مواردی که این کلاس تست کرده است را می‌بینیم:
+![image](https://github.com/user-attachments/assets/a4234217-0e96-4d09-bf66-8e94e1aed237)
+
+حال Generate Coverage Report را میزنیم که یک فایل html به ما خروجی میدهد:
+![image](https://github.com/user-attachments/assets/5c56209a-82fd-47ac-947c-69e10bd4c00f)
+که این فایل html مذکور می‌باشد:
+![image](https://github.com/user-attachments/assets/bf82f1ff-244b-4694-a878-0dba32b5747d)
+
+اینجا می‌بینیم که با کلیک بر روی لینک هر یک از فایل های گزارش، خطوط کاور شده سبز رنگ هستند و خطوط کاور نشده قرمز رنگ هستند:
+![image](https://github.com/user-attachments/assets/2a4b8fc6-4388-4491-87ae-6350ec1555e1)
+
+که اینجا بررسی پروژه json-simple به پایان می‌رسد.
+
+حال به بررسی پروژه Library می‌پردازیم به همین شکل:
+ابتدا پروژه را با Intellij باز می‌کنیم:
+![image](https://github.com/user-attachments/assets/17b941b3-2d3e-48d1-992e-3e3515967362)
+حال هر کدام از فایل های تست را Run test with coverage می‌گیریم، نتایج را در زیر مشاهده می‌کنید:
+![image](https://github.com/user-attachments/assets/22460a20-a975-4c7b-9055-ca797457c81b)
+
+![image](https://github.com/user-attachments/assets/4819ec94-2eea-49e6-bbcc-31636212f357)
+
+و به همان ترتیبی که در پروژه قبلی نیز دیدیم میتوانیم Generate coverage Report نیز انجام دهیم و خطوط کاور شده و کاور نشده را در قالب یک فایل html ببینیم.
+حال به این میپردازیم که چند تست به تست ها اضافه کنیم که کاورج تست ها بالا رود:
+کاورج با تست های اولیه به این صورت است:
+![image](https://github.com/user-attachments/assets/1c75a8aa-91c5-4958-a6ad-94b63ce2b114)
+
+این تست ها را برای تابع LendBook در Library اضافه میکنیم:
+![image](https://github.com/user-attachments/assets/2b5692ec-32a5-4c46-ba69-508a52d9459f)
+
+و نتیجه آن ها موفقیت آمیز است و پاس می شوند، همچنین درصد کاورج کلاس Library نیز بالا رفته:
+![image](https://github.com/user-attachments/assets/83e7f92b-4b3a-4135-9044-f31b383597f4)
+
+
+![image](https://github.com/user-attachments/assets/0da59322-94a8-4b1a-a2f5-6cf2f639d933)
+
+حال تعدادی تست دیگر نیز اضافه میکنیم و نتیجه نهایی را قرار می‌دهیم:
+
+![image](https://github.com/user-attachments/assets/d52dfc92-a6c3-46c8-8963-145791599853)
+
+می‌بینیم که تست ها پاس شده اند و کاورج نهایی نیز به طرز چشمگیری افزایش داشته:
+![image](https://github.com/user-attachments/assets/157b25fa-46a7-464b-b959-e2014b1f3d6e)
+
+
+و این بخش نیز به پایان رسید.
+
