@@ -155,8 +155,16 @@ duplicate code
   <img src="./images/test6.png" />
 </p>
 
+ 
+
 <p align="center">
   <img src="./images/result8.png" />
 </p>
 
 و به این ترتیب این بخش از آزمایش کامل می‌شود.
+
+
+حال به این می‌پردازیم که از ابزار های تست برای بررسی دقیق کاورج استفاده کنیم.
+![image](https://github.com/user-attachments/assets/2da1dce0-5b7a-4db2-9b40-0192d2a64644)
+
+
