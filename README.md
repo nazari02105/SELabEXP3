@@ -164,7 +164,12 @@ duplicate code
 و به این ترتیب این بخش از آزمایش کامل می‌شود.
 
 
-حال به این می‌پردازیم که از ابزار های تست برای بررسی دقیق کاورج استفاده کنیم.
+حال به این می‌پردازیم که از ابزار های تست برای بررسی دقیق کاورج استفاده کنیم. پروژه ی json-simple که به ما ارائه شده بود را با استفاده از ide intellij و  maven configuration آن را باز میکنیم:
 ![image](https://github.com/user-attachments/assets/2da1dce0-5b7a-4db2-9b40-0192d2a64644)
 
+سپس فایل TestJson.java را باز میکنیم و Run test with coverage را اعمال می‌کنیم.
+![image](https://github.com/user-attachments/assets/16f05dd3-8d4d-49bc-9be4-004f32a52c9f)
+
+نتیجه به شکل زیر می‌باشد می‌بینیم که در کنار هر فایل در سمت چپ درصد کاورج متد ها، کلاس ها و خط ها آمده است.
+![image](https://github.com/user-attachments/assets/19efe06f-2367-4cbd-89ea-c623b9186898)
 
